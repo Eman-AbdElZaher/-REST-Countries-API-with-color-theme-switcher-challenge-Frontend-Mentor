@@ -32,7 +32,7 @@ function CreateCountryItem(country){
         countryItem.classList.add('country-item');
         let imgBox = document.createElement('div');
         let link= document.createElement('a');
-        link.setAttribute('href',`details.html?country=${country.name}`);
+        link.setAttribute('href',`details.html?country=${country.alpha3Code}`);
         imgBox.classList.add('img-box');
         let img = document.createElement('img');
         img.setAttribute('src',country.flags.svg);
