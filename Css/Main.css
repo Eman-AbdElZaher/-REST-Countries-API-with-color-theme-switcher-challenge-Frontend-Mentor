@@ -60,7 +60,7 @@ header {
   width: 100%;
   z-index: 99;
   padding: 20px 0;
-  height: 60px;
+  height: 70px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 header .container {
@@ -70,7 +70,7 @@ header .container {
   height: 100%;
 }
 header h1 {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 800;
 }
 header .icon-mode {
@@ -89,7 +89,8 @@ header .icon-mode ion-icon {
 Main .search-container {
   display: flex;
   justify-content: space-between;
-  padding: 100px 0 40px;
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
 main .search-input {
   width: 400px;
@@ -172,6 +173,7 @@ ul.options li:last-child {
   max-width: 100%;
   border-radius: 5px;
   margin-bottom: 35px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   overflow: hidden;
 }
 .country-item .img-box {
